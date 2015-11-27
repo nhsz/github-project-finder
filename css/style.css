@@ -1,15 +1,32 @@
-/*
+/******
 ** BODY
-*/
+*******/
+
 
 body {
   padding-left: 2em;
 }
 
-/* H1 */
+a:not(:hover) {
+  text-decoration: none;
+}
+
+/*
+** BODY
+** `-- HEADER
+**     `-- H1
+*/
 
 h1 {
   font-family: 'ApexSansBoldT';
-  color: #000;
   font-size: 3em;
 }
+
+/*
+** BODY
+** `-- HEADER
+**     `-- NAV
+*/
+
+
+
