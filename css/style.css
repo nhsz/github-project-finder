@@ -19,6 +19,10 @@ a:not(:hover) {
   text-decoration: none;
 }
 
+a {
+  color: #4078C0;
+}
+
 .grey-border {
   border-radius: 7px;
   border: solid 2px #F0F0F0;
@@ -30,7 +34,7 @@ a:not(:hover) {
 */
 
 header {
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
 /*
@@ -63,6 +67,8 @@ nav {
   background: #959494;
   width: 4.5em;
   color: #fff;
+  float: right;
+  margin: 1em;
 }
 
 nav a {
@@ -87,10 +93,10 @@ section {
 
 #results {
   padding: 1em;
-  width: 44%;
+  width: 47.5%;
   display: inline-block;
-  margin: -0.3em -1em 0 1em;
   vertical-align: top;
+  float: right;
 }
 
 /*
@@ -115,9 +121,8 @@ h1 {
 */
 
 .simple-form {
-  margin: -0.3em;
   padding: 1em;
-  width: 50%;
+  width: 45%;
   display: inline-block;
   vertical-align: top;
 }
