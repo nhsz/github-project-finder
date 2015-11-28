@@ -12,11 +12,16 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   font-weight: 400;
-  margin-right: 8em;
+  margin: 0 auto;
 }
 
 a:not(:hover) {
   text-decoration: none;
+}
+
+.grey-border {
+  border-radius: 7px;
+  border: solid 2px #F0F0F0;
 }
 
 /*
@@ -25,8 +30,6 @@ a:not(:hover) {
 */
 
 header {
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
   padding-bottom: 1em;
 }
 
@@ -42,22 +45,52 @@ header, footer {
 
 /*
 ** BODY
-** `-- SECTION
-*/
-
-section {
-  padding: 1.5em;
-  border: solid 2px #F5F5F5;
-}
-
-/*
-** BODY
 ** `-- FOOTER
 */
 
 footer {
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  padding: 0.5em 0 0.5em 1em;
+}
+
+/*
+** BODY
+** `-- HEADER
+**     `-- NAV
+*/
+
+nav {
+  padding: 0.5em;
+  background: #959494;
+  width: 4.5em;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+}
+
+/*
+** BODY
+** `-- SECTION
+*/
+
+section {
+  margin: 1em 0 1em 0;
+  padding: 1.5em;
+}
+
+/*
+** BODY
+** `-- SECTION
+**     `-- RESULTS
+*/
+
+#results {
+  padding: 1em;
+  width: 44%;
+  display: inline-block;
+  margin: -0.3em -1em 0 1em;
+  vertical-align: top;
 }
 
 /*
@@ -79,6 +112,20 @@ h1 {
 ** BODY
 ** `-- SECTION
 **     `-- FORM
+*/
+
+.simple-form {
+  margin: -0.3em;
+  padding: 1em;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*
+** BODY
+** `-- SECTION
+**     `-- FORM
 **         `-- LABEL
 */
 
@@ -94,7 +141,7 @@ section label {
 */
 
 section input[type=text] {
-  width: 15em;
+  width: 41%;
   margin-left: 0.5em;
 }
 
@@ -124,7 +171,7 @@ section input[type=submit] {
 */
 
 section select {
-  width: 15.5em;
+  width: 42%;
 }
 
 section form #langChoice {
