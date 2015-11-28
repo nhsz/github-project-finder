@@ -1,36 +1,61 @@
-/******
-** BODY
-*******/
+/*****
+**** BODY
+*********/
 
+/*
+** BODY
+** `-- GENERAL STYLING
+*/
 
 body {
   padding: 2em;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   font-weight: 400;
+  margin-right: 8em;
 }
 
 a:not(:hover) {
   text-decoration: none;
 }
 
+/*
+** BODY
+** `-- HEADER
+*/
+
 header {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  margin-bottom: 1.5em;
+  padding-bottom: 1em;
 }
+
+/*
+** BODY
+** `-- HEADER & FOOTER
+*/
 
 header, footer {
   padding-left: 1em;
-  background: rgba(69, 130, 245, .3);
+  background: #CEE0E7;
 }
+
+/*
+** BODY
+** `-- SECTION
+*/
 
 section {
-  padding-left: 1em;
+  padding: 1.5em;
+  border: solid 1px #CEE0E7;
 }
 
+/*
+** BODY
+** `-- FOOTER
+*/
+
 footer {
-  margin-top: 1.5em;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -45,15 +70,45 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
   font-weight: 900;
+  padding-top: 0.2em;
   margin-top: 0.25em;
   margin-bottom: -0.2em;
 }
 
 /*
 ** BODY
-** `-- HEADER
-**     `-- NAV
+** `-- SECTION
+**     `-- FORM
+**         `-- LABEL
 */
 
+section label {
+  font-weight: bold;
+}
 
+/*
+** BODY
+** `-- SECTION
+**     `-- FORM
+**         `-- INPUT
+*/
 
+section input[type=text] {
+  width: 15em;
+  margin-left: 0.5em;
+}
+
+/*
+** BODY
+** `-- SECTION
+**     `-- FORM
+**         `-- SELECT
+*/
+
+section select {
+  width: 15.5em;
+}
+
+section form #langChoice {
+  margin-left: 4.5em;
+}

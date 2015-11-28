@@ -5,6 +5,7 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="octicons/octicons.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:900' rel='stylesheet' type='text/css'>
 
   <meta charset="utf-8">
 
@@ -23,14 +24,15 @@
 
   <section>
     <form>
-      <label for="projectKeywords">Project keywords</label>
-      <input name="projectKeywords" id="projectKeywords"/>
+      <label for="projectKeywords">Project keywords:</label>
+      <input type="text" name="projectKeywords" id="projectKeywords"/>
       <br>
       <input type="checkbox" name="useStars" id="useStars" checked="true"/>
       <label for="useStars">Starred projects only</label>
       <br>
+      <br>
       <p>If the language you are looking for is not listed, use the <strong>Any language</strong> option.</p>
-      <label for="langChoice">Language</label>
+      <label for="langChoice">Language:</label>
       <select name="langChoice" id="langChoice">
         <option selected="true">Any language</option>
         <option>Arduino</option>
@@ -74,27 +76,10 @@
       <br>
       <input type="submit" value="Search"/>
     </form>
-
-    <!-- <form class="pure-form pure-form-aligned">
-    <fieldset>
-      <div class="pure-control-group">
-        <label for="name">Project keywords</label>
-        <input id="name" type="text">
-      </div>
-
-      <div class="pure-control-group">
-        <label for="password">Language</label>
-        <input id="password" type="password">
-      </div>
-
-      <button type="submit" class="pure-button pure-button-primary">Submit</button>
-    </fieldset>
-  </form> -->
-
   </section>
 
   <footer>
-    &copy; 2015 <a target="_blank" href="http://nhquiroz.me">Nicolás Quiroz</a>.
+    &copy; 2015 <a target="_blank" href="http://nhquiroz.me">Nicolás Quiroz</a>
   </footer>
 </body>
 </html>
