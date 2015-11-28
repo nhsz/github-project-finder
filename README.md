@@ -1,1 +1,1 @@
-# frontend-project
+# github-project-finder
