@@ -93,7 +93,7 @@ section {
 
 #results {
   padding: 1em;
-  width: 47.5%;
+  width: 50%;
   display: inline-block;
   vertical-align: top;
   float: right;
@@ -122,7 +122,7 @@ h1 {
 
 .simple-form {
   padding: 1em;
-  width: 45%;
+  width: 42.5%;
   display: inline-block;
   vertical-align: top;
 }
@@ -146,7 +146,7 @@ section label {
 */
 
 section input[type=text] {
-  width: 41%;
+  width: 45%;
   margin-left: 0.5em;
 }
 
@@ -165,7 +165,8 @@ section input[type=submit] {
   font-weight: bold;
   border-radius: 7px;
   margin-top: 1em;
-  padding: 0.5em;
+  padding: 0.6em;
+  float: right;
 }
 
 /*
@@ -176,7 +177,7 @@ section input[type=submit] {
 */
 
 section select {
-  width: 42%;
+  width: 46%;
 }
 
 section form #langChoice {
