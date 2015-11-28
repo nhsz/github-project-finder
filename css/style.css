@@ -4,11 +4,35 @@
 
 
 body {
-  padding-left: 2em;
+  padding: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 a:not(:hover) {
   text-decoration: none;
+}
+
+header {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-bottom: 1.5em;
+}
+
+header, footer {
+  padding-left: 1em;
+  background: rgba(69, 130, 245, .3);
+}
+
+section {
+  padding-left: 1em;
+}
+
+footer {
+  margin-top: 1.5em;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 /*
@@ -18,8 +42,11 @@ a:not(:hover) {
 */
 
 h1 {
-  font-family: 'ApexSansBoldT';
+  font-family: 'Roboto', sans-serif;
   font-size: 3em;
+  font-weight: 900;
+  margin-top: 0.25em;
+  margin-bottom: -0.2em;
 }
 
 /*
