@@ -37,7 +37,7 @@ header {
 
 header, footer {
   padding-left: 1em;
-  background: #E6F1F6;
+  background: #F5F5F5;
 }
 
 /*
@@ -47,7 +47,7 @@ header, footer {
 
 section {
   padding: 1.5em;
-  border: solid 1px #E6F1F6;
+  border: solid 2px #F5F5F5;
 }
 
 /*
@@ -71,7 +71,7 @@ h1 {
   font-size: 3em;
   font-weight: 900;
   padding-top: 0.2em;
-  margin-top: 0.25em;
+  margin-top: 0.2em;
   margin-bottom: -0.2em;
 }
 
