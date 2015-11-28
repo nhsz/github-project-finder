@@ -37,7 +37,7 @@ header {
 
 header, footer {
   padding-left: 1em;
-  background: #CEE0E7;
+  background: #E6F1F6;
 }
 
 /*
@@ -47,7 +47,7 @@ header, footer {
 
 section {
   padding: 1.5em;
-  border: solid 1px #CEE0E7;
+  border: solid 1px #E6F1F6;
 }
 
 /*
@@ -96,6 +96,24 @@ section label {
 section input[type=text] {
   width: 15em;
   margin-left: 0.5em;
+}
+
+/*
+** BODY
+** `-- SECTION
+**     `-- FORM
+**         `-- INPUT
+**             `-- SUBMIT
+*/
+
+section input[type=submit] {
+  background-image: linear-gradient(#8ADD6D, #60B044);
+  border-color: #5CA941;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 7px;
+  margin-top: 1em;
+  padding: 0.5em;
 }
 
 /*
