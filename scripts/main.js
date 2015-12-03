@@ -52,6 +52,11 @@ $("#githubSearchForm").on("submit", function() {
         $.get(githubSearch)
             .success(function(r) {
                 displayResults(r.items);
+
+                var totalCount = r.total_count;
+                var numberOfPages = Math.ceil(totalCount / 30);
+                console.log("Number of results: " + totalCount);
+                console.log("Number of pages: " + numberOfPages);
         })
             .fail(function(err) {
                 console.log("Failed to query GitHub API.")
