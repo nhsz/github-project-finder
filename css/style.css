@@ -93,8 +93,8 @@ section {
 
 .result {
   transition: background 0.2s ease-in-out 0s;
-  padding: 1em;
-  margin: 0 -0.75em -1em -1em;
+  padding: 1em 1em 0 1em;
+  margin: 1em -0.75em -1em -1em;
   border-radius: 7px;
 }
 
@@ -202,4 +202,8 @@ section select {
 
 section form #langChoice {
   margin-left: 4.5em;
+}
+
+section form #sortBy {
+  margin-left: 5.91em;
 }
