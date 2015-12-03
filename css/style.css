@@ -91,10 +91,17 @@ section {
 **     `-- RESULTS
 */
 
+.result {
+  transition: background 0.2s ease-in-out 0s;
+  padding: 1em;
+  margin: 0 -0.75em -1em -1em;
+  border-radius: 7px;
+}
+
 #results {
   margin-left: 1em;
   padding: 1em;
-  width: 50%;
+  width: 44.5%;
   display: inline-block;
   vertical-align: top;
 }
@@ -130,7 +137,7 @@ h1 {
 
 .simple-form {
   padding: 1em;
-  width: 42.5%;
+  width: 48%;
   display: inline-block;
   vertical-align: top;
 }
