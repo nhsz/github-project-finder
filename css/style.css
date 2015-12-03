@@ -98,6 +98,10 @@ section {
   border-radius: 7px;
 }
 
+.result:hover {
+  background: #F5F5F5;
+}
+
 #results {
   margin-left: 1em;
   padding: 1em;

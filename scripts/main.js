@@ -65,12 +65,6 @@ function displayResults(results) {
             "<div> Owner: " + item.owner.login + "</div>" +
             "</div>" + "<br>");
 
-        newResult.hover(function() {
-            $(this).css("background-color", "#F5F5F5");
-        }, function() {
-            $(this).css("background-color", "transparent");
-        });
-
         resultsList.append(newResult);
     });
 }
