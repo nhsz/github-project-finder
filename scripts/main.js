@@ -70,7 +70,7 @@ function displayResults(results) {
     resultsList.empty();
     $.each(results, function(i, item) {
 
-        var repoDescription = item.description;
+        var repoDescription = "<div>" + item.description + "</div>";
 
         if (repoDescription == "") {
             repoDescription = "Description not provided.";
@@ -83,7 +83,7 @@ function displayResults(results) {
 
         var newResult = $("<div class = 'result'>" +
             repoName +
-            "<div>" + repoDescription + "</div>" +
+            repoDescription +
             repoLanguage +
             repoUpdatedOn +
             "<br>");
