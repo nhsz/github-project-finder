@@ -92,11 +92,19 @@ section {
 */
 
 #results {
+  margin-left: 1em;
   padding: 1em;
   width: 50%;
   display: inline-block;
   vertical-align: top;
-  float: right;
+}
+
+#resultsList {
+  margin: 1em;
+}
+
+#resultsList .title {
+  font-weight: bold;
 }
 
 /*
