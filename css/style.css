@@ -124,8 +124,9 @@ section {
 **     `-- H1
 */
 
+/* custom font */
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'ApexSansBoldST', sans-serif;
   font-size: 3em;
   font-weight: 900;
   padding-top: 0.2em;
