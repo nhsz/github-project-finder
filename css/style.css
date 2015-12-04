@@ -94,7 +94,7 @@ section {
 .result {
   transition: background 0.2s ease-in-out 0s;
   padding: 1em 1em 0 1em;
-  margin: 1em -0.75em -1em -1em;
+  margin: -1em -0.75em 1em -1em;
   border-radius: 7px;
 }
 
