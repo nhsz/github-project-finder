@@ -106,11 +106,14 @@ section {
   margin-left: 1em;
   padding: 1em;
   width: 44.5%;
+  height: 15.65em;
+  overflow-y: auto;
   display: inline-block;
   vertical-align: top;
 }
 
 #resultsList {
+  padding-top: -2em;
   margin: 1em;
 }
 

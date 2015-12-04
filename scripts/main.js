@@ -8,17 +8,13 @@ var resultsList = $("#resultsList");
 resultsList.text("Insert your keywords, select the language and press the Search button.");
 
 
-// results button
-var toggleButton = $("#toggleButton");
-toggleButton.on("click", function() {
-    resultsList.toggle(200);
+// pagination
+var paginationButton = $("#paginationButton");
+paginationButton.hide();
 
-    if (toggleButton.text() == "Hide results") {
-        toggleButton.text("Show results")
-    } else {
-        toggleButton.text("Hide results")
-    };
-});
+
+// search flag
+var searchDone = false;
 
 
 //
@@ -30,6 +26,7 @@ $("#githubSearchForm").on("submit", function() {
 
     if (searchPhrase) {
         resultsList.text("Searching...");
+        paginationButton.hide();
 
         // repo keywords
         var githubSearch = "https://api.github.com/search/repositories?q=" + encodeURIComponent(searchPhrase);
@@ -51,12 +48,19 @@ $("#githubSearchForm").on("submit", function() {
         // if there are no results, display an error message on console
         $.get(githubSearch)
             .success(function(r) {
-                displayResults(r.items);
-
                 var totalCount = r.total_count;
                 var numberOfPages = Math.ceil(totalCount / 30);
                 console.log("Number of results: " + totalCount);
                 console.log("Number of pages: " + numberOfPages);
+
+                var numberOfResults = totalCount + " related repositories found.";
+
+                displayResults(r.items);
+                searchDone = true;
+
+                if (numberOfPages > 1) {
+                    paginationButton.show();
+                }
         })
             .fail(function(err) {
                 console.log("Failed to query GitHub API.")
