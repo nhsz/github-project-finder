@@ -1,9 +1,13 @@
 /* for custom-font support */
 @font-face {
   font-family: 'ApexSansBoldST';
-  src: url('ApexSansBoldST.ttf')  format('truetype');
+  src: url('ApexSansBoldST.eot'); /* IE9 Compat Modes */
+  src: url('ApexSansBoldST.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ApexSansBoldST.woff2') format('woff2'), /* Super Modern Browsers */
+       url('ApexSansBoldST.woff') format('woff'), /* Pretty Modern Browsers */
+       url('ApexSansBoldST.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ApexSansBoldST.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-
 
 /*****
 **** BODY
