@@ -1,3 +1,10 @@
+/* for custom-font support */
+@font-face {
+  font-family: 'ApexSansBoldST';
+  src: url('ApexSansBoldST.ttf')  format('truetype');
+}
+
+
 /*****
 **** BODY
 *********/
