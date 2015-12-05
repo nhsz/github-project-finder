@@ -1,17 +1,17 @@
-/* for custom-font support */
-@font-face {
-  font-family: 'ApexSansBoldST';
-  src: url('ApexSansBoldST.eot'); /* IE9 Compat Modes */
-  src: url('ApexSansBoldST.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('ApexSansBoldST.woff2') format('woff2'), /* Super Modern Browsers */
-       url('ApexSansBoldST.woff') format('woff'), /* Pretty Modern Browsers */
-       url('ApexSansBoldST.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('ApexSansBoldST.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
 /*****
 **** BODY
 *********/
+
+/* for custom-font support */
+@font-face {
+  font-family: 'apexsansboldstregular';
+  src: url('../fonts/apexsansboldst-webfont.eot');
+  src: url('../fonts/apexsansboldst-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/apexsansboldst-webfont.woff2') format('woff2'),
+       url('../fonts/apexsansboldst-webfont.woff') format('woff'),
+       url('../fonts/apexsansboldst-webfont.ttf') format('truetype'),
+       url('../fonts/apexsansboldst-webfont.svg#apexsansboldstregular') format('svg');
+}
 
 /*
 ** BODY
@@ -138,9 +138,8 @@ section {
 **     `-- H1
 */
 
-/* custom font */
 h1 {
-  font-family: 'ApexSansBoldST', sans-serif;
+  font-family: 'apexsansboldstregular', sans-serif;
   font-size: 3em;
   font-weight: 900;
   padding-top: 0.2em;
