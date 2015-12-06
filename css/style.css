@@ -114,17 +114,17 @@ section {
 }
 
 #results {
-  margin-left: 1em;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
   padding: 1em;
-  width: 44.5%;
-  height: 15.65em;
+  width: 44.8%;
+  height: 15.4em;
   overflow-y: auto;
   display: inline-block;
   vertical-align: top;
 }
 
 #resultsList {
-  padding-top: -2em;
   margin: 1em;
 }
 
@@ -154,6 +154,8 @@ h1 {
 */
 
 .simple-form {
+  margin-left: 0.25%;
+  margin-right: 0.25%;
   padding: 1em;
   width: 48%;
   display: inline-block;
